@@ -1,4 +1,4 @@
-# Minimum Cost Procurement and Transportation Strategy
+# Optimal Transportation Network Design for Cost-Effective Oil Distribution
 ![Eight Image](https://github.com/Johnlee19990908/Supply-Chain-Network-Planning/blob/main/readme_photo/2.png)
 
 ## 1. Objective
