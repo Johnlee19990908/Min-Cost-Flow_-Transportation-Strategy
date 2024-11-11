@@ -1,4 +1,5 @@
 # Minimum Cost Procurement and Transportation Strategy
+![Eight Image](https://github.com/Johnlee19990908/Supply-Chain-Network-Planning/blob/main/readme_photo/2.png)
 
 ## 1. Objective
 The project aims to develop an optimal transportation network to manage the shipment of oil across various cities within a specified planning horizon. The goal is to minimize the total transportation cost while ensuring that the supply and demand constraints are met across all nodes (cities) and time periods (weeks).
@@ -6,8 +7,9 @@ The project aims to develop an optimal transportation network to manage the ship
 ## 2. Model Overview
 We use a Transportation Optimization Model to represent the movement of oil between cities. The model incorporates multiple cities, transportation routes, and time periods, and seeks to find the optimal shipping schedule that minimizes the total cost. 
 
-The transportation problem is formulated as follows:
+![Eight Image](https://github.com/Johnlee19990908/Supply-Chain-Network-Planning/blob/main/readme_photo/3.png)
 
+The transportation problem is formulated as follows:
 
 ### Sets
 - `CITIES`: Set of cities involved in the supply-demand network.
@@ -24,11 +26,11 @@ The transportation problem is formulated as follows:
 
 ### Objective Function &  Constraints
 
-
+![Eight Image](https://github.com/Johnlee19990908/Supply-Chain-Network-Planning/blob/main/readme_photo/4.png)
 
 ## Solution and Result
 
-After running the model using an optimization solver (e.g., CBC 2.10.10), the optimal solution provides:
+After running file time_expand_network.ipynb, the model using an optimization solver (e.g., CBC 2.10.10), the optimal solution provides:
 - The optimal shipping quantities across the network,
 - The total transportation cost.
 
